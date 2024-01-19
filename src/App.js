@@ -76,13 +76,13 @@ function App() {
             style={{
               position: "relative",
               flex: "0 0 45%",
-              transform: "translate3d(35%, 35%, 0)",
+              transform: "translate3d(25%, 35%, 0)",
             }}
           >
             <img
               className="img-fluid"
               data-bss-parallax
-              data-bss-parallax-speed="0.8"
+              data-bss-parallax-speed="0.9"
               src={img3} // Use the imported image
               width={300}
               height={300}
@@ -93,13 +93,13 @@ function App() {
             style={{
               position: "relative",
               flex: "0 0 45%",
-              transform: "translate3d(-5%, 20%, 0)",
+              transform: "translate3d(-15%, 20%, 0)",
             }}
           >
             <img
               className="img-fluid"
               data-bss-parallax
-              data-bss-parallax-speed="0.4"
+              data-bss-parallax-speed="0.45"
               width={300}
               height={300}
               src={img2} // Use the imported image
@@ -116,7 +116,7 @@ function App() {
             <img
               className="img-fluid"
               data-bss-parallax
-              data-bss-parallax-speed="0.25"
+              data-bss-parallax-speed="0.27"
               width={300}
               height={300}
               src={img1} // Use the imported image
